@@ -1,0 +1,52 @@
+/*  ============================================================
+  ================= GAME HOME STYLES
+============================================================= */
+
+/*  =============================================
+  ================= Home Menus
+============================================== */
+.selectButton {
+  background-color: inherit;
+}
+
+#previewTilesContainer {
+height: 3rem;
+}
+
+.sortCategory:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
+
+#usersTileOptions > label {
+  cursor: pointer;
+}
+
+/*  =============================================
+  ================= Buttons
+============================================== */
+.logoutButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/*  =============================================
+  ================= Overlays
+============================================== */
+#gameHomeOverlay {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(27, 85, 124);
+}
+
+/*  =============================================
+  ================= Utilities
+============================================== */
+.highlight-js {
+  background-color: white;
+}

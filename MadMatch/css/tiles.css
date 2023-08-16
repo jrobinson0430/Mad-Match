@@ -1,0 +1,68 @@
+/*  ============================================================
+  ================= GAME TILE STYLES
+============================================================= */
+.tiles {
+  width: 2.8rem;
+  height: 2.8rem;
+  padding: 0;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.objectiveTile {
+  width: 2.1rem;
+  height: 2.1rem;
+  transform: scale(0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tiles:hover {
+  transform: scale(0.9);
+}
+
+/*  =============================================
+  ================= Sports Tiles
+============================================== */
+.pool { background-image: url(../images/tiles/sports/pool.png) }
+.soccer { background-image: url(../images/tiles/sports/soccer.png) }
+.football { background-image: url(../images/tiles/sports/football.png) }
+.softball { background-image: url(../images/tiles/sports/softball.png) }
+.basketball { background-image: url(../images/tiles/sports/basketball.png) }
+
+/*  =============================================
+  ================= Math Tiles
+============================================== */
+.plus { background-image: url(../images/tiles/math/plus.png) }
+.times { background-image: url(../images/tiles/math/times.png) }
+.minus { background-image: url(../images/tiles/math/minus.png) }
+.divide { background-image: url(../images/tiles/math/divide.png) }
+.percent { background-image: url(../images/tiles/math/percent.png) }
+
+/*  =============================================
+  ================= Pattern Tiles
+============================================== */
+.pattern1 { background-image: url(../images/tiles/pattern/pattern1.png) }
+.pattern2 { background-image: url(../images/tiles/pattern/pattern2.png) }
+.pattern3 { background-image: url(../images/tiles/pattern/pattern3.png) }
+.pattern4 { background-image: url(../images/tiles/pattern/pattern4.png) }
+.pattern5 { background-image: url(../images/tiles/pattern/pattern5.png) }
+
+/*  =============================================
+  ================= Animal Tiles
+============================================== */
+.cat { background-image: url(../images/tiles/animals/cat.png) }
+.dog { background-image: url(../images/tiles/animals/dog.png) }
+.fox { background-image: url(../images/tiles/animals/fox.png) }
+.bear { background-image: url(../images/tiles/animals/bear.png) }
+.mouse { background-image: url(../images/tiles/animals/mouse.png) }
+
+/*  =============================================
+  ================= Insect Tiles
+============================================== */
+.bee { background-image: url(../images/tiles/insects/bee.png) }
+.spider { background-image: url(../images/tiles/insects/spider.png) }
+.ladybug { background-image: url(../images/tiles/insects/ladybug.png) }
+.butterfly { background-image: url(../images/tiles/insects/butterfly.png) }
+.caterpillar { background-image: url(../images/tiles/insects/caterpillar.png) }

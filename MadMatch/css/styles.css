@@ -1,0 +1,84 @@
+/*  ============================================================
+  ================= GLOBAL STYLES
+============================================================= */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightskyblue;
+  font-family: Noteworthy, 'Trebuchet MS', 'Lucida Sans Unicode',
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gameTitle {
+  width: 32.4rem;
+  height: 9rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gameTitleRed-js { background-image: url(../images/gameTitleRed.png) }
+.gameTitleWhite-js { background-image: url(../images/gameTitleWhite.png) }
+
+/*  =============================================
+  ================= Buttons
+============================================== */
+.backButton {
+  width: 3.5rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  top: 1.6rem;
+  left: 0.2rem;
+}
+
+.helpButton {
+  cursor: help;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 1.5rem;
+  right: 0.8rem;
+}
+
+.backButton:hover, .helpButton:hover {
+  color: white;
+  transform: scale(1.4);
+}
+
+/*  =============================================
+  ================= Menus
+============================================== */
+.menuStyle {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: rgb(27, 85, 124, 0.3);
+}
+
+.menuStyle button:hover, .menuStyle a:hover {
+  transform: scale(1.04);
+}
+
+/*  =============================================
+  ================= Utility Class
+============================================== */
+.hideElement {
+  display: none;
+}
+
+small {
+  font-size: 86%
+}
+
+@media screen and (max-width: 450px) {
+  .gameTitle {
+    width: 21.4rem;
+    height: 6rem;
+    margin-bottom: 0;
+  }
+}
